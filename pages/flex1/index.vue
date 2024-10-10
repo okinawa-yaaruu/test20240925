@@ -33,6 +33,7 @@
 
 .divider {
   /* このflexアイテムは伸長収縮させない、width値をそのまま使う */
+  /* flex-growのデフォルトは0なので、flex-grow: 0;は必要ないが一応入れてある */
   flex-grow: 0;
   flex-shrink: 0;
   width: 20px;
